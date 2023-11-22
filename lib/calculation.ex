@@ -77,7 +77,9 @@ defmodule PrayerTimes.Calculation do
     dhuhr = mid_day(jdate, times[:dhuhr])
     asr = asr_time(jdate, asr_factor(Methods.param(method, :asr)), times[:asr], lat)
     sunset = sun_angle_time(jdate, rise_set_angle(0), times[:sunset], lat)
+
     maghrib = sun_angle_time(jdate, Methods.param(method, %{int: :maghrib}), times[:maghrib], lat)
+
     isha = sun_angle_time(jdate, Methods.param(method, %{int: :isha}), times[:isha], lat)
 
     %{

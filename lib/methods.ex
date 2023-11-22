@@ -32,6 +32,8 @@ defmodule PrayerTimes.Methods do
   @default_settings %{
     imsak: '10 min',
     dhuhr: '0 min',
+    maghrib: '0 min',
+    midnight: 'Standard',
     asr: :standard,
     high_lats: :night_middle
   }
