@@ -19,7 +19,7 @@ end
 To obtain prayer times for a specific location and date:
 
 ```elixir
-prayer_times = PrayerTimes.compute(%{
+PrayerTimes.compute(%{
   method: :turkiye,
   date: Date.utc_today,
   lat: 41.0082,
