@@ -1,6 +1,6 @@
 # prayer_times
 
-Configurable calculation package for Muslim prayer times in Elixir.
+Configurable calculation module for Muslim prayer times in Elixir.
 
 ## Installation
 
